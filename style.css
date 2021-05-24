@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#countdown {
+  font-size: 80px;
+  font-family: sans-serif;
+}
+
+.countdown-button {
+  margin: 3px;
+  background-color: orange;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.countdown-button:hover {
+  background-color: darkorange;
+}
+
+#resume-countdown {
+  display: none;
+}
+
+#pause-countdown {
+  display: none;
+}
+
+#reset-countdown {
+  background-color: red;
+  color: white;
+  display: none;
+}
